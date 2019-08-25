@@ -24,3 +24,7 @@ C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.g.cshtml.cs
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.g.cshtml.cs
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
