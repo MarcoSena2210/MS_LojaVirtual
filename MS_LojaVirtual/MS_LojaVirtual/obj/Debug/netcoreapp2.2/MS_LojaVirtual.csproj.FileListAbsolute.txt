@@ -4,7 +4,6 @@ C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\bin
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\bin\Debug\netcoreapp2.2\MS_LojaVirtual.dll
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\bin\Debug\netcoreapp2.2\MS_LojaVirtual.pdb
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\bin\Debug\netcoreapp2.2\MS_LojaVirtual.Views.dll
-C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.csprojAssemblyReference.cache
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.csproj.CoreCompileInputs.cache
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.RazorAssemblyInfo.cache
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.RazorAssemblyInfo.cs
@@ -28,3 +27,4 @@ C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.g.cshtml.cs
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.csprojAssemblyReference.cache
