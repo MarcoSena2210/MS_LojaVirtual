@@ -22,8 +22,12 @@ namespace MS_LojaVirtual.Controllers
                contato.Nome = HttpContext.Request.Form["nome"];
                contato.Email = HttpContext.Request.Form["email"];
                contato.Texto = HttpContext.Request.Form["texto"];
-               ContatoEmail.EnviarContatoPorEmail(contato);
-               return new ContentResult() {        Content = string.Format( "Dados recebidos com sucesso! Nome: {0} <br/> E-mail: {1} <br/> Texto:{2} " , contato.Nome, contato.Email, contato.Texto), ContentType = "text/html"  };
+
+               //ContatoEmail.EnviarContatoPorEmail(contato);
+
+               ViewData["MSG_S"] = "Mensagem de contato enviado com sucesso!";
+
+               return View("Contato");
           }
 
           public IActionResult Login()
