@@ -38,10 +38,16 @@
 
                          <article class="card">
                               <div class="card-body p-5">
-                                   @if (ViewData["MSG_S"] != null) {
+                                   @if (ViewData["MSG_S"] != null)
+                                   {
                                         <p class="alert alert-success">@ViewData["MSG_S"] </p>
                                    }
-                             
+
+                                   @if (ViewData["MSG_E"] != null)
+                                   {
+                                        <p class="alert alert-danger">@ViewData["MSG_E"] </p>
+                                   }
+
                                    <form role="form" method="post" action="/home/ContatoAcao">
                                         <div class="form-group">
                                              <label for="nome">Nome</label>
@@ -49,7 +55,7 @@
                                                   <div class="input-group-prepend">
                                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
                                                   </div>
-                                                  <input type="text" id ="nome" class="form-control" name="nome" placeholder=""
+                                                  <input type="text" id="nome" class="form-control" name="nome" placeholder=""
                                                          required="">
                                              </div> <!-- input-group.// -->
                                         </div> <!-- form-group.// -->
@@ -75,7 +81,7 @@
                                                   </div>
                                              </div>
                                         </div> <!-- row.// -->
-                                        <button class="subscribe btn btn-primary btn-block" type="submit" > Enviar </button>
+                                        <button class="subscribe btn btn-primary btn-block" type="submit"> Enviar </button>
                                    </form>
                               </div> <!-- card-body.// -->
                          </article> <!-- card.// -->

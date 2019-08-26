@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MS_LojaVirtual.Libraries.Email;
 using MS_LojaVirtual.Models;
+using System;
 
 namespace MS_LojaVirtual.Controllers
 {
@@ -18,15 +19,21 @@ namespace MS_LojaVirtual.Controllers
 
           public IActionResult ContatoAcao() {
 
-               Contato contato = new Contato();
-               contato.Nome = HttpContext.Request.Form["nome"];
-               contato.Email = HttpContext.Request.Form["email"];
-               contato.Texto = HttpContext.Request.Form["texto"];
+               try {
+                    Contato contato = new Contato();
+                    contato.Nome = HttpContext.Request.Form["nome"];
+                    contato.Email = HttpContext.Request.Form["email"];
+                    contato.Texto = HttpContext.Request.Form["texto"];
 
-               //ContatoEmail.EnviarContatoPorEmail(contato);
+                    ContatoEmail.EnviarContatoPorEmail(contato);
 
-               ViewData["MSG_S"] = "Mensagem de contato enviado com sucesso!";
+                    ViewData["MSG_S"] = "Mensagem de contato enviado com sucesso!";
+               } catch (Exception) {
 
+                    ViewData["MSG_E"] = "Atenção! Tivemos um erro, tente novamente mais tarde";
+
+                    //TODO - Implementar log
+               }
                return View("Contato");
           }
 
