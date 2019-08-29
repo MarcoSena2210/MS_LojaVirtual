@@ -10,8 +10,18 @@ namespace MS_LojaVirtual.Controllers
 {
      public class HomeController : Controller
      {
+          [HttpGet]
           public IActionResult Index()
           {
+                  return View();
+          }
+
+          [HttpPost]
+          public IActionResult Index([FromForm]NewsLetterEmail newLetter)
+          {
+               //TODO -Adição no banco de dados
+
+               //TODO - Validações
                return View();
           }
 

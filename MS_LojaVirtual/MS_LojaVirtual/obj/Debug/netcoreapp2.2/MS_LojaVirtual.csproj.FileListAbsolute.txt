@@ -29,3 +29,4 @@ C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.Libraries.Lang.Mensagem.resources
 C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.csproj.GenerateResource.cache
+C:\Users\msena\Desktop\Sistemas\MS_LojaVirtual\MS_LojaVirtual\MS_LojaVirtual\obj\Debug\netcoreapp2.2\MS_LojaVirtual.csprojAssemblyReference.cache

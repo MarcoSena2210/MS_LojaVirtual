@@ -19,6 +19,7 @@ namespace MS_LojaVirtual.Database
         }
 
         public DbSet<Cliente> Clientes { get; set; }
+         public DbSet<NewsLetterEmail> NewsLetterEmails{ get; set; }
 
-    }
+     }
 }

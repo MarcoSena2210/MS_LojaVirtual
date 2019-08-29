@@ -43,6 +43,19 @@ namespace MS_LojaVirtual.Migrations
 
                     b.ToTable("Clientes");
                 });
+
+            modelBuilder.Entity("MS_LojaVirtual.Models.NewsLetterEmail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Email");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NewsLetterEmails");
+                });
 #pragma warning restore 612, 618
         }
     }
